@@ -1,0 +1,141 @@
+body {
+    font-family: "Lato", sans-serif;
+    margin: 0;
+}
+/*----------------------------------------------------------------------------------------------*/
+/* Style page content  */
+#main {
+    padding: 0;
+    transition: 0.5s;
+}
+/*----------------------------------------------------------------------------------------------*/
+/* Style the links inside the navigation bar */
+.topnav {
+    background-color: #d31c1c;
+    color: azure;
+    overflow: hidden;
+    height: 70px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-start;
+
+}
+/* Center the avatar image inside this container */
+.header_container {
+    text-align: center;
+    font-size: 24px;
+    padding-left: 150px;
+    padding-bottom: 5px;
+}
+.header{
+    left: 70%;
+}
+.openbtn, .closebtn{
+    font-size: 40px;
+    cursor: pointer;
+    
+}
+/*----------------------------------------------------------------------------------------------*/
+/* The side navigation menu */
+.sidenav {
+    height: 100%; /* 100% Full-height */
+    width: 0; /* 0 width - change this with JavaScript */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Stay on top */
+    top: 0; /* Stay at the top */
+    left: 0; /* Stay on the left */
+    background-color: #e6e6e6; /* Black*/
+    overflow-x: hidden; /* Disable horizontal scroll */
+    padding-top: 10%; /* Place content 60px from the top */
+    transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
+}
+/* The navigation menu links */
+.sidenav a {
+    padding: 8px 8px 4px 30px;
+    border-top: 1px solid #303030;
+    border-bottom: 1px solid #303030;
+    padding: 10px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+}
+/* When you mouse over the navigation links, change their color */
+.sidenav a:hover {
+    color: #f1f1f1;
+    text-decoration: none;
+}
+/* Position and style the close button (top right corner) */
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+    border: none;
+}
+/* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+@media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+}
+/*----------------------------------------------------------------------------------------------*/
+/*ADD USER FORM*/
+div.container.addition{
+    position: absolute;
+    z-index: 99;
+    background: #fff;
+    transform: translate(20%, 10%);
+    border-radius: 10px;
+
+}
+div.zuria{
+    position: fixed;
+    height:100vh;
+    width: 100vw;
+    background: #07070785;
+    z-index: 98;
+    cursor: not-allowed;
+}
+
+/*----------------------------------------------------------------------------------------------*/
+/* main content area */
+
+.wrapper1 > img{
+    width: 60%;
+    height: 600px;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    padding-bottom: 20px ;
+    transform: translateX(40%);
+
+}
+.wrapper2 > img{
+    width: 60%;
+    height: 600px;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    padding-bottom: 20px ;
+    transform: translateX(40%);
+
+}
+.wrapper3 > img{
+    width: 60%;
+    height: 600px;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    padding-bottom: 20px ;
+    transform: translateX(40%);
+
+}
+.wrapper4 > img{
+    width: 60%;
+    height: 600px;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    padding-bottom: 20px ;
+    border: 1px solid red;
+    transform: translateX(40%);
+
+}

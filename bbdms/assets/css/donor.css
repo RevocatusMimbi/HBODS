@@ -1,0 +1,69 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: aliceblue;
+}
+nav{
+    background: #660000;
+}
+.bgimage{
+    max-height: 70vh;
+    position: relative;
+}
+.bgimage img{
+    width: 100%;
+    max-height: 70vh;
+}
+div.img-text{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 26px;
+    font-weight: bold;
+    color: aliceblue;
+    background-color: rgba(255, 178, 127, 0.74);
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid #000;
+}
+a.reg{
+    position: absolute;
+    right: 5%;
+}
+.log-panel h4{
+    background-color: rgba(235, 84, 84, 0.54);
+}
+.log-panel .log-form{
+    padding: 5px 5px 4vw 5px;
+    border-radius: 5px;
+}
+div.reg-form{
+    position: absolute;
+	z-index: 99;
+	width: 80%;
+	display: none;
+	transform: translate(13%, -2.5%);
+}
+/**************************Overlay********************************/
+div.overlay{
+    width: 100vw;
+    height: 100vh;
+    position: fixed ;
+    background-color: rgba(16, 16, 39, 0.871);
+    transform: translateY(-80%);
+    cursor: pointer;
+    display: none;
+}
+
+/* div.overlay.active{
+    display:block;
+    opacity: 1;
+  } */
+  #cancel{
+    position: absolute;
+    right: 5%;
+  }
